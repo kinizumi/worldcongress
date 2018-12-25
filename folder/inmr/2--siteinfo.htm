@@ -1,0 +1,554 @@
+<html>
+<head>
+   
+    <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+    Include roboto.css to use the Roboto web font, material.css to include the theme and ripples.css to style the ripple effect
+    <link href="/css/roboto.min.css" rel="stylesheet">
+    <link href="/css/material.min.css" rel="stylesheet">
+    <link href="/css/ripples.min.css" rel="stylesheet"> -->
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="2015 INMR WorldCongress">
+<meta name="author" content="Quan Jin">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <title> Site visits Page </title>
+
+        <!-- Vendor CSS -->
+        <link href="vendors/bower_components/fullcalendar/dist/fullcalendar.min.css" tppabs="http://vendors/bower_components/fullcalendar/dist/fullcalendar.min.css" rel="stylesheet">
+        <link href="vendors/bower_components/animate.css/animate.min.css" tppabs="http://vendors/bower_components/animate.css/animate.min.css" rel="stylesheet">
+        <link href="vendors/bower_components/sweetalert/dist/sweetalert-override.min.css" tppabs="http://vendors/bower_components/sweetalert/dist/sweetalert-override.min.css" rel="stylesheet">
+        <link href="vendors/bower_components/material-design-iconic-font/css/material-design-iconic-font.min.css" tppabs="http://vendors/bower_components/material-design-iconic-font/css/material-design-iconic-font.min.css" rel="stylesheet">
+        <link href="vendors/socicon/socicon.min.css" tppabs="http://vendors/socicon/socicon.min.css" rel="stylesheet">
+            
+        <!-- CSS -->
+        <link href="css/app.min.1.css" tppabs="http://css/app.min.1.css" rel="stylesheet">
+        <link href="css/app.min.2.css" tppabs="http://css/app.min.2.css" rel="stylesheet">
+
+       <link href="css/main.css" rel="stylesheet">
+<link rel="shortcut icon" type="image/png" href="img/favicon3.png"/>
+
+
+
+</head>
+<body class="toggled sw-toggled" >
+
+<header id="header">
+            <ul class="header-inner">
+                <li id="menu-trigger" data-trigger="#sidebar">
+                    <div class="line-wrap">
+                        <div class="line top"></div>
+                        <div class="line center"></div>
+                        <div class="line bottom"></div>
+                    </div>
+                </li>
+            
+                <li class="logo hidden-xs">
+                    <a href="index.htm">INMR</a>
+                </li>
+                
+                <li class="pull-right">
+                <ul class="top-menu">
+                    <li id="toggle-width">
+                        <div class="toggle-switch">
+                            <input id="tw-switch" type="checkbox" hidden="hidden">
+                            <label for="tw-switch" class="ts-helper"></label>
+                        </div>
+                    </li>
+                    <li id="top-search">
+                        
+                    </li>
+                    
+                    
+                    <li class="dropdown hidden-xs">
+                        
+                        <div class="dropdown-menu pull-right dropdown-menu-lg">
+                            <div class="listview">
+                                <div class="lv-header">
+                                    Tasks
+                                </div>
+                                <div class="lv-body">
+                                    <div class="lv-item">
+                                        <div class="lv-title m-b-5">HTML5 Validation Report</div>
+                    
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+                                                <span class="sr-only">95% Complete (success)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lv-item">
+                                        <div class="lv-title m-b-5">Google Chrome Extension</div>
+                    
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                                <span class="sr-only">80% Complete (success)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lv-item">
+                                        <div class="lv-title m-b-5">Social Intranet Projects</div>
+                    
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                                <span class="sr-only">20% Complete</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lv-item">
+                                        <div class="lv-title m-b-5">Bootstrap Admin Template</div>
+                    
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                                <span class="sr-only">60% Complete (warning)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="lv-item">
+                                        <div class="lv-title m-b-5">Youtube Client App</div>
+                    
+                                        <div class="progress">
+                                            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                                <span class="sr-only">80% Complete (danger)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    
+                                <a class="lv-footer" href="">View All</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        
+                        <ul class="dropdown-menu dm-icon pull-right">
+                            <li>
+                                <a data-action="fullscreen" href=""><i class="md md-fullscreen"></i> Toggle Fullscreen</a>
+                            </li>
+                            <li>
+                                <a data-action="clear-localstorage" href=""><i class="md md-delete"></i> Clear Local Storage</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="md md-person"></i> Privacy Settings</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="md md-settings"></i> Other Settings</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="hidden-xs" id="chat-trigger" data-trigger="#chat">
+                        
+                    </li>
+                    </ul>
+                </li>
+            </ul>
+            
+            <!-- Top Search Content -->
+            <div id="top-search-wrap">
+                <input type="text">
+                <i id="top-search-close">&times;</i>
+            </div>
+        </header>
+        
+        <section id="main">
+            <aside id="sidebar">
+                <div class="sidebar-inner c-overflow">
+                    <div class="profile-menu">
+                        <a href="http://inmrworldcongress.events" target="_blank" class="go2att">
+                            
+                        </a>
+
+                        <ul class="main-menu">
+                            <li>
+                                <a href="javascript:if(('http://videopap.com/profile-about.html  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ������������ļ�δ�ҵ���  \n\n�����ڷ������ϴ���?'))window.location='http://profile-about.html'" tppabs="http://profile-about.html"><i class="md md-person"></i> View Profile</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="md md-settings-input-antenna"></i> Privacy Settings</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="md md-settings"></i> Settings</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="md md-history"></i> Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                    <ul class="main-menu">
+                        <li ><a href="index.htm" tppabs="http://"><i class="md md-home"></i> Home</a></li>
+                        <li><a href="agenda.htm" tppabs="http://agenda"><i class="md-today"></i>Agenda</a></li>
+                        <li><a href="speakers.htm" tppabs="http://speakers"><i class="md-mic"></i> Speakers</a></li>
+                        
+                         <li><a href="papers.htm" tppabs="http://peapers"><i class="md-description"></i>Papers</a></li>
+                        <li><a href="presentations.htm" tppabs="http://presentations"><i class="md-video-collection"></i>Presentations</a></li>
+                       
+                        <li><a href="http://inmrworldcongress.events/exhibitors" target="_blank" class="go2exh"><i class="socicon socicon-slideshare"></i>Exhibition</a></li>
+                        <li><a href="http://inmrworldcongress.events/attendees" class="go2att" target="_blank"><i class="md-people"></i> Attendees</a></li>
+                        <li><a href="http://inmrworldcongress.events/partners" class="go2par" target="_blank"><i class="md-account-balance"></i>Partners</a></li>
+                         
+                         <li><a href="map.htm" tppabs="http://map"><i class="md-place"></i>Maps</a></li>
+                        <li><a href="site.htm" tppabs="http://site"><i class="md-store-mall-directory"></i>Site visits</a></li>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+            
+            
+
+
+<style>
+.breakingnews3{
+background-color:#f1f1f1;
+height:100%;
+color:#000!important;
+overflow: hidden;
+position: relative;
+text-shadow: none;
+z-index: 10;
+width: 100%;
+max-width: 1190px;
+margin: 0px auto 0px;
+font-size: 10px;
+overflow: hidden;
+}
+
+.breakingnews4{
+background-color:white;//#f1f1f1;
+height:100%;
+color:#000!important;
+overflow: hidden;
+position: relative;
+text-shadow: none;
+z-index: 10;
+width: 100%;
+max-width: 1190px;
+margin: 0px auto 0px;
+font-size: 10px;
+overflow: hidden;
+}
+
+.company51{
+font-size: 11pt;
+font-family: Helvetica, "Helvetica 47 Light Condensed", "Helvetica Neue", "Helvetica Neue Light";
+font-style: normal;
+//margin-left:35px;
+color: black;
+text-align: justify;
+}
+.company515{
+font-size: 11pt;
+font-family: Helvetica, "Helvetica 47 Light Condensed", "Helvetica Neue", "Helvetica Neue Light";
+font-style: normal;
+
+color: black;
+
+}
+.company1001{
+font-weight:bold;
+font-size: 11pt;
+font-family: Helvetica, "Helvetica 47 Light Condensed", "Helvetica Neue", "Helvetica Neue Light";
+font-style: normal;
+text-align: center;
+color: #FFF!important; //#FEE629
+margin-top: 20px;
+margin-bottom: 10px;
+
+//margin-bottom: 10px;
+//border-style: solid;
+//border-color: #F00;
+background: #C8171F;
+padding: 10px;
+border: 2px solid #000;
+}
+.cal1{
+margin-left:5px;
+margin-right:5px;
+background-color:white ;//rgba(136,136,136,0.04);#f1f1f1
+color:  black!important;//#FEE629
+}
+fieldset.scheduler-border11 {
+padding: 0 1.4em 1.4em 1.4em !important;
+margin: 0 0 1.5em 0 !important;
+-webkit-box-shadow: 0px 0px 0px 0px #000;
+box-shadow: 0px 0px 0px 0px #000;
+
+border-spacing: 0px 0px;
+border: 1px groove #000;
+background-color: white;
+  
+
+}
+
+    legend.scheduler-border1 {
+     font-size: 16px;
+       
+        font-weight: bold !important;
+        text-align: left !important;
+        width:auto;
+        padding:0 10px;
+        border-bottom:none;
+border-top-color:red;
+border-bottom-color:red;
+//color:  black!important;//#FEE629
+       text-transform: uppercase;
+
+    }
+#prt-btn{margin:0 auto;
+text-align: center;
+width:99px;height:50px;
+  white-space: nowrap;
+margin-top:22px;
+}
+#prt-btn a.dt-btn{
+font-size:16px;
+padding:11px;
+background: linear-gradient(30deg,#000 0%,#000 100%);//linear-gradient(30deg,#2578e9 0%,#3fe7d9 100%);
+border-radius: 4px;
+}
+#overviews{padding:19px;padding-left:25px;padding-bottom:9px;}
+#sec-nav,#top-nav{height:auto;}
+.pagination a{font-size:1.3em;}
+.pagination{height:40px;}
+.company100{//color:black!important;}
+/*worldcongress CSS 20150425*/
+@charset  "UTF-8";
+/* CSS Document */
+#feeimg{margin:0 auto!important;display: block; padding-bottom:24px;}
+#sec-nav a,#main-nav a{letter-spacing:0.1px;}
+iframe{display:block;margin: 0 auto;}
+#overviewdiv{//border: 1px groove #e0e0e0;background-color:white;}
+@media (max-width:858px) { #logo_lft{width:100%!important;}}
+
+ 
+.childlinks{position: absolute;width:70px;height:60px;z-index:999;//border: 0.8px groove #fff;}
+#c_1{right:220px;top:117px;}
+#c_4{right:322px;top:117px;}
+#c_5{right:22px;top:117px;}
+#c_10{right:429px;top:117px;}
+#c_7{right:408px;top:30px;}
+#c_6{right:158px;top:30px;}
+#c_3{right:38px;top:30px;}
+#c_8{right:151px;top:206px;}
+#c_9{right:80px;top:206px;}
+#c_11{right:445px;top:206px;}
+#c_13{right:223px;top:206px;}
+#c_12{right:278px;top:30px;}
+#c_2{right:122px;top:117px;}
+#c_14{right:372px;top:206px;}
+#c_15{right:300px;top:206px;}
+#c_16{right:7px;top:206px;}
+
+@media (max-width:400px) 
+{ #logo_rht{width:100%!important;}
+.childlinks{width:33px;height:27px;}
+#c_1{right:112px;top:60px;}
+#c_4{right:164px;top:60px;}
+#c_5{right:12px;top:60px;}
+#c_10{right:218px;top:60px;}
+#c_2{right:61px;top:60px;}
+
+#c_7{right:208px;top:17px;}
+#c_6{right:77px;top:17px;}
+#c_3{right:18px;top:17px;}
+#c_12{right:141px;top:17px;}
+
+#c_8{right:77px;top:106px;}
+#c_9{right:42px;top:106px;}
+#c_11{right:225px;top:106px;}
+#c_13{right:112px;top:106px;}
+#c_14{right:187px;top:106px;}
+#c_15{right:150px;top:106px;}
+#c_16{right:3px;top:106px;}
+}
+a:link.newanc{color:blue!important;}
+#blk_bg{background-color:black!important;margin:0 auto;height:46px;padding:0 auto;}
+#overviewdiv{margin:0;border: 1px groove #000; margin-bottom:5px;padding-bottom:19px;line-height: 1.4;}
+#contact_1 a:link,#contact_2 a:link {color:#300dfa!important;}
+#main-nav a{text-align: center;padding-bottom:12px;}
+
+
+</style>
+<link href="css/litetooltip.min.css" tppabs="http://css/litetooltip.min.css" rel="stylesheet" type="text/css" />
+<script src="../ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.0.min.js" tppabs="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.9.0.js" tppabs="http://js/jquery-1.9.0.js"></script>
+ <link href="../fonts.googleapis.com/css-family=Lato-300,400,700.css" tppabs="http://fonts.googleapis.com/css?family=Lato:300,400,700" rel='stylesheet' type='text/css' />
+<script src="../cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js" tppabs="http://cdnjs.cloudflare.com/ajax/libs/list.js/1.1.1/list.min.js"></script>
+<script src="../code.jquery.com/jquery-1.10.2.js" tppabs="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="../www.listjs.com/no-cdn/list.js" tppabs="http://listjs.com/no-cdn/list.js"></script>
+
+
+
+
+            <section id="content">
+                
+
+
+
+    
+
+                        
+                       
+                        
+                    
+                    
+                    <div class="card">
+
+
+
+
+
+<div class="card-header" >
+
+     
+    
+                <div id="hacker-list">
+
+   
+
+    
+
+                                        
+  
+
+
+
+<div class="rida" less-height="50" ng-view="">
+
+       <fieldset class="scheduler-border11"><legend class="scheduler-border1">TECHNICAL SITE VISIT TO WACKER CHEMIE </legend>
+<p style="text-align: justify;"><span class="company51"><b>  Lovely Town of Burghausen</b> (Thursday, Oct 22) 
+Join fellow attendees for a unique excursion to visit one of the world’s largest manufacturers of silicone rubber, used across many industries including production of high voltage components such as insulators, arresters and cable accessories.
+</span></p>
+<img class="img-thumbnail" src="../inmrworldcongress.com/wp-content/uploads/2015/04/wacker1.png" tppabs="https://inmrworldcongress.com/wp-content/uploads/2015/04/wacker1.png" alt="WESTIN GRAND MUNICH" width="auto" height="auto" />
+&nbsp;
+
+</fieldset>
+<div id="overviewdiv" class="cal1">
+<div id="overviews">
+<p style="text-align: justify;"><span class="company51">A private bus will take you at 09:00 Thursday from the Westin Grand Munich Hotel to Burghausen, where you will have an exclusive tour of the huge Wacker facility as well as a visit to the Application Engineering Labs of the Silicones Division. This will be followed by Presentation: <b>Wacker Chemie AG in Germany</b> and a light lunch in the cantina. In the afternoon, visitors will be taken on a guided walk through historic Burghausen Castle – the longest in all of Europe. 
+</span></p>
+<img class="img-thumbnail" src="../inmrworldcongress.com/wp-content/uploads/2015/04/wacker22.png" tppabs="https://inmrworldcongress.com/wp-content/uploads/2015/04/wacker22.png" alt="WESTIN GRAND MUNICH" width="auto" height="auto" />
+<p style="text-align: justify;">The bus will return to the Westin Grand Munich (circa 19:00) via Munich Airport (arrival at airport circa 18:00), allowing visitors to conveniently catch flights home anytime after about 19:30.</p>
+</br>
+<b>REGISTRATION ON A FIRST-­‐COME FIRST-­‐SERVE BASIS: Maximum 50 participants (INCLUDED IN REGISTRATION FEE)</b>
+
+</div>
+</div>
+
+   </div>
+
+
+  
+
+           
+                              
+
+                                   
+                                    
+
+ 
+                             
+                               
+                                 
+ </div>
+                               
+
+
+                        
+                        
+                        
+                       
+                   
+                    
+                    
+
+
+
+
+
+
+
+
+
+                </div></div> 
+            <div class="art-footer-body">
+                        <div class="art-footer-text">
+                            <p>Copyright &copy; 2015 INMR All Rights Reserved. | <a href="Contact.html" >Contact Us</a> | <a href="http://www.inmr.com/subscribe-the-magazine/" class="go2att" target="_blank">Subscribe INMR Magazine</a> | <a href="http://www.inmr.com/subscribe-inmr-weekly-technical-review/" class="go2att" target="_blank">Subscribe INMR WEEKLY TECHNICAL REVIEW</a></p>
+                        </div>
+                    </div>
+</section>
+       
+        <script>
+
+var options = {
+    valueNames: [ 'person-name', 'person-company' ]
+};
+
+var hackerList = new List('hacker-list', options);
+
+
+
+</script>
+<script type="text/javascript" src="js/jquery-1.9.0.js" tppabs="http://js/jquery-1.9.0.js"></script>
+<script type="text/javascript" src="js/LiteTooltip.min-1.js" tppabs="http://js/LiteTooltip.min.js"></script>
+
+<script>
+$('.litetooltip-hotspot-wrapper .hotspot').each(function () { 
+    $(this).LiteTooltip({ title: $(this).find('.data-container').html() });
+ });
+</script>
+
+    <script type="text/javascript">
+        $("a").LiteTooltip();
+    </script>
+
+
+
+
+
+
+
+
+        <!-- Javascript Libraries -->
+        <script src="vendors/bower_components/jquery/dist/jquery.min.js" tppabs="http://vendors/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="vendors/bower_components/bootstrap/dist/js/bootstrap.min.js" tppabs="http://vendors/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        
+        <script src="vendors/bower_components/flot/jquery.flot.js" tppabs="http://vendors/bower_components/flot/jquery.flot.js"></script>
+        <script src="vendors/bower_components/flot/jquery.flot.resize.js" tppabs="http://vendors/bower_components/flot/jquery.flot.resize.js"></script>
+        <script src="vendors/bower_components/flot.curvedlines/curvedLines.js" tppabs="http://vendors/bower_components/flot.curvedlines/curvedLines.js"></script>
+        <script src="vendors/sparklines/jquery.sparkline.min.js" tppabs="http://vendors/sparklines/jquery.sparkline.min.js"></script>
+        <script src="vendors/bower_components/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js" tppabs="http://vendors/bower_components/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
+        
+        <script src="vendors/bower_components/moment/min/moment.min.js" tppabs="http://vendors/bower_components/moment/min/moment.min.js"></script>
+        <script src="vendors/bower_components/fullcalendar/dist/fullcalendar.min.js" tppabs="http://vendors/bower_components/fullcalendar/dist/fullcalendar.min.js"></script>
+        <script src="vendors/bower_components/simpleWeather/jquery.simpleWeather.min.js" tppabs="http://vendors/bower_components/simpleWeather/jquery.simpleWeather.min.js"></script>
+        <script src="vendors/bower_components/jquery.nicescroll/jquery.nicescroll.min.js" tppabs="http://vendors/bower_components/jquery.nicescroll/jquery.nicescroll.min.js"></script>
+        <script src="vendors/bower_components/Waves/dist/waves.min.js" tppabs="http://vendors/bower_components/Waves/dist/waves.min.js"></script>
+        <script src="vendors/bootstrap-growl/bootstrap-growl.min.js" tppabs="http://vendors/bootstrap-growl/bootstrap-growl.min.js"></script>
+        <script src="vendors/bower_components/sweetalert/dist/sweetalert.min.js" tppabs="http://vendors/bower_components/sweetalert/dist/sweetalert.min.js"></script>
+        
+        <!-- Placeholder for IE9 -->
+        <!--[if IE 9 ]>
+            <script src="vendors/bower_components/jquery-placeholder/jquery.placeholder.min.js" tppabs="http://vendors/bower_components/jquery-placeholder/jquery.placeholder.min.js"></script>
+        <![endif]-->
+        
+        <script src="js/flot-charts/curved-line-chart.js" tppabs="http://js/flot-charts/curved-line-chart.js"></script>
+        <script src="js/flot-charts/line-chart.js" tppabs="http://js/flot-charts/line-chart.js"></script>
+        <script src="js/charts.js" tppabs="http://js/charts.js"></script>
+        
+        <script src="js/charts.js" tppabs="http://js/charts.js"></script>
+        <script src="js/functions.js" tppabs="http://js/functions.js"></script>
+        <script src="js/demo.js" tppabs="http://js/demo.js"></script>
+
+        <script src="js/angular.js" tppabs="http://js/angular.js"></script>
+        <script src="js/file.js" tppabs="http://js/file.js"></script>
+        <script src="js/drop.js" tppabs="http://js/drop.js"></script>
+
+       
+
+        </body>
+
+</html>
